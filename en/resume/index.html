@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elizaveta Kesova — QA Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Inter', system-ui, sans-serif;
+  background:#fbfbfb;
+  color:#1f1f1f;
+}
+
+.container{
+  max-width:1000px;
+  margin:40px auto;
+  padding:30px;
+}
+
+.header{
+  display:flex;
+  gap:30px;
+  align-items:flex-start;
+}
+
+.avatar{
+  width:280px;
+  height:auto;
+  border-radius:12px;
+  object-fit:cover;
+}
+
+.name{
+  font-size:30px;
+  font-weight:600;
+  margin:0;
+}
+
+.role{
+  margin-top:6px;
+  font-weight:400;
+  color:#555;
+}
+
+.contacts{
+  margin-top:10px;
+  color:#444;
+}
+
+.contacts span{
+  margin-right:12px;
+}
+
+.section{
+  margin-top:38px;
+}
+
+.section-title{
+  font-size:19px;
+  font-weight:650;
+  color:#2a2a2a;
+  margin:18px 0 10px;
+  letter-spacing:0.2px;
+}
+
+/* SUMMARY RIGHT SIDE */
+.summary-inline{
+  padding:12px 14px;
+  border-radius:10px;
+  line-height:1.35;
+  font-size:14px;
+  color:#2a2a2a;
+}
+
+.summary-inline p{
+  margin:0 0 10px 0;
+}
+
+.summary-inline p:last-child{
+  margin-bottom:0;
+}
+
+.section{
+  margin-top:38px;
+}
+
+/* UNIFIED CARD STYLE */
+.card{
+  padding:14px 16px;
+  border-radius:10px;
+  transition:all 0.22s ease;
+  line-height:1.45;
+  margin-bottom:10px;
+}
+
+.card:hover{
+  background:#f3f3f3;
+  transform:translateX(6px);
+}
+
+/* SKILLS */
+.skills-group{
+  margin-bottom:18px;
+}
+
+.skills-title{
+  font-size:13px;
+  font-weight:600;
+  color:#666;
+  margin-bottom:8px;
+}
+
+.chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.chip{
+  padding:6px 10px;
+  background:#f1f1f1;
+  border-radius:8px;
+  font-size:13px;
+  transition:all 0.2s ease;
+}
+
+.chip:hover{
+  background:#e7e7e7;
+  transform:translateY(-2px);
+}
+
+/* EXPERIENCE UPDATED */
+.exp-item{
+  padding:14px 16px;
+  border-radius:10px;
+  transition:all 0.25s ease;
+  margin-bottom:10px;
+}
+
+.exp-item:hover{
+  background:#f3f3f3;
+  transform:translateX(6px);
+}
+
+.exp-line-1{
+  font-weight:600;
+  margin-bottom:4px;
+}
+
+.exp-line-2{
+  font-weight:600;
+  color:#444;
+  margin-bottom:6px;
+}
+
+.exp-text{
+
+  line-height:1.4;
+  font-size:14px;
+}
+
+/* EDUCATION */
+.edu-item{
+  padding:14px 16px;
+  border-radius:10px;
+  transition:all 0.25s ease;
+  line-height:1.4;
+}
+
+.edu-item:hover{
+  background:#f3f3f3;
+  transform:translateX(6px);
+}
+
+.edu-title{
+  font-weight:600;
+}
+
+.edu-sub{
+  font-style:italic;
+  color:#444;
+  margin-top:2px;
+}
+
+.edu-meta{
+  margin-top:2px;
+  color:#666;
+  font-size:14px;
+}
+
+/* CERTS */
+.cert-item{
+  padding:14px 16px;
+  border-radius:10px;
+  transition:all 0.25s ease;
+  line-height:1.4;
+}
+
+.cert-item:hover{
+  background:#f3f3f3;
+  transform:translateX(6px);
+}
+
+.cert-title{
+  font-weight:600;
+}
+
+.cert-meta{
+  margin-top:2px;
+  color:#666;
+  font-size:14px;
+}
+
+@media(max-width:800px){
+  .header{flex-direction:column;}
+  .avatar{width:100%;max-width:340px;}
+}
+</style>
+</head>
+  
+<body>
+<div class="container">
+
+<div class="header">
+  <img src="img/avatar1.jpg" class="avatar">
+
+  <div class="header-right">
+
+    <div>
+      <h1 class="name">Elizaveta Kesova</h1>
+      <div class="role">Middle QA Engineer (Manual + Automation)</div>
+      <div class="contacts">
+        <span>+7983-154-53-42</span>
+        <span>kesova.en@gmail.com</span>
+        <span>Kaliningrad</span>
+      </div>
+    </div>
+
+    <div class="section-title">Objective</div>
+
+    <div class="summary-inline">
+      <p>Middle QA Engineer with 4+ years of commercial experience in web and mobile application testing (iOS / Android) within both product and project-based teams. Ensuring product quality across all stages of the SDLC/STLC — from requirements analysis to production releases.</p>
+
+      <p>Strong expertise in working with requirements and documentation. Author of 7 scientific publications. Skilled in structuring complex requirements and reducing defect risks through detailed analysis and a systematic approach.</p>
+
+      <p>Possess strong communication and organizational skills, with experience in process coordination and cross-functional team collaboration.</p>
+
+      <p><b> Core value:</b>a systematic approach to quality assurance and full ownership of results. </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- EDUCATION -->
+<div class="section">
+  <div class="section-title">Education</div>
+
+  <div class="edu-item">
+    <div class="edu-title">Immanuel Kant Baltic Federal University</div>
+    <div class="edu-sub">Master’s Degree — Applied Mathematics and Computer Science</div>
+    <div class="edu-meta">2023 | Graduated with Honors</div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-title">Siberian Federal University</div>
+    <div class="edu-sub">Bachelor’s Degree — Information Systems and Technologies</div>
+    <div class="edu-meta">2021 | Graduated with Honors</div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-title">Siberian Federal University</div>
+    <div class="edu-sub">Translator in Professional Communication</div>
+    <div class="edu-meta">2020 | Professional Retraining Diploma</div>
+  </div>
+
+</div>
+
+<!-- CERTS -->
+<div class="section">
+  <div class="section-title">Qualifications</div>
+
+  <div class="cert-item">
+    <div class="cert-title">Digital Footprint: Legal Issues of Data Protection in the Digital Environment</div>
+    <div class="cert-meta">Immanuel Kant Baltic Federal University | 2022</div>
+  </div>
+
+  <div class="cert-item">
+    <div class="cert-title">Personnel Management in a Modern Organization</div>
+    <div class="cert-meta">Immanuel Kant Baltic Federal University | 2022</div>
+  </div>
+
+  <div class="cert-item">
+    <div class="cert-meta"> — Additional professional development courses completed in 2022 are not included due to lower relevance to the current specialization.</div>
+  </div>
+
+</div>
+
+<!-- EXPERIENCE -->
+<div class="section">
+  <div class="section-title">Work experience</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Project: Educational Web Platform</div>
+  <div class="exp-line-2">QA Engineer | Project-based employment | 11/2025 – 01/2026</div>
+  <div class="exp-text">— Performed functional, regression, UI/UX, and acceptance testing of a web platform</div>
+  <div class="exp-text">— Created and maintained test cases, test scenarios, and testing guidelines</div>
+  <div class="exp-text">— Prepared test data and validated business logic using SQL</div>
+  <div class="exp-text">— Worked with APIs to verify client-server interaction</div>
+  <div class="exp-text">— Configured and executed basic Python autotests</div>
+  <div class="exp-text">— Participated in requirements discussions and business logic clarification</div>
+</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Project: Internal Team Service</div>
+  <div class="exp-line-2">QA Engineer | Project-based employment | 06/2025 – 12/2025</div>
+  <div class="exp-text">— Ensured quality of the internal service (tasks, statuses, notifications, access rights)</div>
+  <div class="exp-text">— Developed and maintained test documentation (checklists, test cases, scenarios)</div>
+  <div class="exp-text">— Used SQL (SELECT, INSERT, UPDATE, DELETE, JOIN) for data analysis</div>
+  <div class="exp-text">— Validated business processes and system logic</div>
+  <div class="exp-text">— Analyzed defects and collaborated with developers</div>
+  <div class="exp-text">— Maintained and executed Python autotests</div>
+  <div class="exp-text">— Participated in test environment setup</div>
+</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Frisbuy</div>
+  <div class="exp-line-2">QA Engineer / Technical Writer | 03/2024 – 09/2025</div>
+  <div class="exp-text">— Tested web and mobile applications (iOS / Android) across all SDLC stages</div>
+  <div class="exp-text">— Performed functional, smoke, regression, integration, system, UI/UX, exploratory, acceptance, cross-browser, and cross-platform testing</div>
+  <div class="exp-text">— Identified and analyzed defects (frontend / backend / UI / UX) and managed bug tracking</div>
+  <div class="exp-text">— Analyzed requirements and participated in requirement refinement with the team</div>
+  <div class="exp-text">— Maintained test artifacts and documented testing results</div>
+  <div class="exp-text">— Worked in an Agile team with developers, designers, and managers</div>
+  <div class="exp-text">— Participated in discussions on priorities, risks, and product quality</div>
+  <div class="exp-text">— Worked with incomplete and constantly changing requirements</div>
+</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Project: Time Tracking Service</div>
+  <div class="exp-line-2">QA Engineer | Project-based employment | 01/2023 – 03/2023</div>
+  <div class="exp-text">— Performed manual testing of web and mobile applications</div>
+  <div class="exp-text">— Conducted functional, regression, UI/UX, exploratory, and acceptance testing</div>
+  <div class="exp-text">— Created test cases, scenarios, and testing guidelines</div>
+  <div class="exp-text">— Validated user and business scenarios</div>
+  <div class="exp-text">— Prepared test data</div>
+  <div class="exp-text">— Used SQL to validate data consistency and business logic</div>
+  <div class="exp-text">— Analyzed defects and collaborated with the developer</div>
+</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Project: Casual Game (Mobile / Web)</div>
+  <div class="exp-line-2">QA Engineer | Project-based Employment | 11/2023 – 01/2024</div>
+  <div class="exp-text">— Tested game mechanics</div>
+  <div class="exp-text">— Performed functional, UI/UX, exploratory, and smoke testing</div>
+  <div class="exp-text">— Created and maintained test scenarios</div>
+  <div class="exp-text">— Documented defects and testing reports</div>
+  <div class="exp-text">— Worked with test data</div>
+  <div class="exp-text">— Verified APIs and server-side logic</div>
+  <div class="exp-text">— Performed compatibility testing on different devices and screen resolutions</div>
+</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Project: Task Management Service</div>
+  <div class="exp-line-2">QA Engineer | Project-based Employment | 06/2023 – 10/2023</div>
+  <div class="exp-text">— Performed manual testing of a web application (CRUD operations)</div>
+  <div class="exp-text">— Conducted integration, regression, and UI/UX testing</div>
+  <div class="exp-text">— Created test cases and checklists</div>
+  <div class="exp-text">— Validated key user scenarios</div>
+  <div class="exp-text">— Reported defects and verified fixes</div>
+  <div class="exp-text">— Collaborated with developers</div>
+</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Miratorg Zapad LLC (Internship)</div>
+  <div class="exp-line-2">IT Department Intern | 04/2023 – 06/2023</div>
+  <div class="exp-text">— Analyzed software requirements and specifications</div>
+  <div class="exp-text">— Participated in software component development</div>
+  <div class="exp-text">— Tested developed components</div>
+  <div class="exp-text">— Prepared test data</div>
+  <div class="exp-text">— Contributed to acceptance criteria definition</div>
+  <div class="exp-text">— Prepared technical and project documentation</div>
+</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Tactical Equipment and Gear LLC (Internship)</div>
+  <div class="exp-line-2">Programmer Intern (Mobile Development, AR) | 03/2021 – 07/2021</div>
+  <div class="exp-text">— Developed a mobile AR application</div>
+  <div class="exp-text">— Implemented functionality according to requirements and design specifications</div>
+  <div class="exp-text">— Performed functional, UI/UX, integration, regression, and cross-platform testing</div>
+  <div class="exp-text">— Verified application stability and compliance with specifications</div>
+  <div class="exp-text">— Worked with requirements and test data</div>
+  <div class="exp-text">— Prepared technical and user documentation</div>
+</div>
+
+<div class="exp-item">
+  <div class="exp-line-1">Sberbank (Internship)</div>
+  <div class="exp-line-2">IT Department Intern | 06/2018 – 07/2018</div>
+  <div class="exp-text">— Developed user instructions for resolving common PC issues</div>
+  <div class="exp-text">— Analyzed and classified user requests</div>
+  <div class="exp-text">— Validated instructions in practice</div>
+  <div class="exp-text">— Prepared recommendations for improving user support quality</div>
+</div>
+
+</div>
+
+<!-- SKILLS -->
+<div class="section">
+  <div class="section-title">Skills & Competencies</div>
+<div class="skills-group">
+  <div class="skills-title">Software Testing</div>
+  <div class="chips">
+    <div class="chip">Manual Testing</div>
+    <div class="chip">Functional Testing</div>
+    <div class="chip">Regression Testing</div>
+    <div class="chip">Smoke Testing</div>
+    <div class="chip">Exploratory Testing</div>
+    <div class="chip">Acceptance Testing</div>
+    <div class="chip">UI/UX Testing</div>
+    <div class="chip">Usability Testing</div>
+    <div class="chip">Cross-browser Testing</div>
+    <div class="chip">Cross-platform Testing</div>
+    <div class="chip">Web Testing</div>
+    <div class="chip">Mobile Testing (iOS / Android)</div>
+    <div class="chip">API Testing</div>
+  </div>
+</div>
+
+<div class="skills-group">
+  <div class="skills-title">Databases & Backend</div>
+  <div class="chips">
+    <div class="chip">SQL (SELECT, INSERT, UPDATE, DELETE, JOIN)</div>
+    <div class="chip">Business Logic Validation</div>
+    <div class="chip">Client-Server Architecture</div>
+    <div class="chip">REST API</div>
+  </div>
+</div>
+
+<div class="skills-group">
+  <div class="skills-title">Documentation & Processes</div>
+  <div class="chips">
+    <div class="chip">Test Cases</div>
+    <div class="chip">Checklists</div>
+    <div class="chip">Test Scenarios</div>
+    <div class="chip">Bug Reports</div>
+    <div class="chip">Test Artifacts</div>
+    <div class="chip">Requirements Analysis</div>
+    <div class="chip">Acceptance Criteria</div>
+    <div class="chip">User Stories</div>
+    <div class="chip">SDLC</div>
+    <div class="chip">STLC</div>
+    <div class="chip">Agile</div>
+    <div class="chip">Scrum</div>
+  </div>
+</div>
+
+<div class="skills-group">
+  <div class="skills-title">Tools & Technologies</div>
+  <div class="chips">
+    <div class="chip">Jira</div>
+    <div class="chip">Confluence</div>
+    <div class="chip">TestRail</div>
+    <div class="chip">TestLink</div>
+    <div class="chip">Postman</div>
+    <div class="chip">DevTools</div>
+    <div class="chip">Python</div>
+    <div class="chip">HTML</div>
+    <div class="chip">CSS</div>
+    <div class="chip">CI/CD</div>
+  </div>
+</div>
+
+<div class="skills-group">
+  <div class="skills-title">Soft Skills</div>
+  <div class="chips">
+    <div class="chip">Analytical Thinking</div>
+    <div class="chip">Attention to Detail</div>
+    <div class="chip">Responsibility</div>
+    <div class="chip">Teamwork</div>
+    <div class="chip">Communication</div>
+    <div class="chip">Organization</div>
+    <div class="chip">Presentation Skills</div>
+    <div class="chip">Requirements Understanding</div>
+  </div>
+</div>
+
+<div class="skills-group">
+  <div class="skills-title">Languages</div>
+  <div class="chips">
+    <div class="chip">English B1–B2 (technical documentation reading, work correspondence)</div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
